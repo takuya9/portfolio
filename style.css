@@ -108,3 +108,75 @@ img.red {
    font-size: 40px;
    left: 150px;
 }
+
+.work2 {
+   position: relative;
+   
+}
+img.work2 {
+   width: 500px;
+   margin-top: 450px;
+   left: 50px;
+}
+.work2 h1 {
+   position: absolute;
+   top: 250px;
+   font-size: 150px;
+   left: 730px;
+}
+.work2 h2 {
+   position: absolute;
+   font-size: 40px;
+   top: 600px;
+   left: 650px;
+   opacity: 0.8;
+}
+img.g1 {
+      position: absolute;
+      border-radius: 50%;
+      z-index: -400;
+      opacity: 0.8;
+      width: 550px;
+      top: 280px;
+      left: 600px;
+   }
+img.g2 {
+   position: absolute;
+   border-radius: 50%;
+   z-index: -400;
+   width: 750px;
+   left: -50px;
+   top: 300px;
+   opacity: 0.8;
+}
+img.g3 {
+   position: absolute;
+   border-radius: 50%;
+   z-index: -400;
+   opacity: 0.6;
+   width: 350px;
+   left: 550px;
+   top: 800px;
+}
+img.g4 {
+   position: absolute;
+   border-radius: 50%;
+   z-index: -360;
+   width: 150px;
+   opacity: 0.5;
+   top: 900px;
+   left: 60px;
+}
+img.g4-2 {
+   position: absolute;
+   border-radius: 50%;
+   z-index: -360;
+   width: 120px;
+   opacity: 0.5;
+   top: 550px;
+   left: 880px;
+}
+.work3  {
+   position: relative;
+   height: 600px;
+}
