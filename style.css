@@ -178,5 +178,50 @@ img.g4-2 {
 }
 .work3  {
    position: relative;
-   height: 600px;
+   padding-top: 400px;
+}
+img.work-3 {
+   width: 500px;
+   position: absolute;
+   left: 45%;
+   padding-bottom: 1000px;
+   top: 700px;
+   
+}
+.work3 h1 {
+   position: absolute;
+   left: 200px;
+   font-size: 150px;
+   top: 470px;
+}
+.work3 h2 {
+   position: absolute;
+   font-size: 35px;
+   left: 150px;
+   top: 800px;
+}
+img.gx1 {
+   position: absolute;
+   z-index: -200;
+   width: 250px;
+   height: 2000px;
+   transform: rotate(60deg);
+   bottom: 1600px;
+   left: 500px;
+}
+.trim {
+   position: relative;
+   overflow: hidden;
+   width: 1300px;
+   height: 2800px;
+   
+}
+img.gx2 {
+   position: absolute;
+   z-index: -201;
+   width: 200px;
+   height: 2000px;
+   transform: rotate(-40deg);
+   bottom: 1600px;
+   left: 200px;
 }
