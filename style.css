@@ -53,7 +53,7 @@ header li {
 
 img.roundimg {
   position: absolute;
-  top: 300px;
+  top: 250px;
   left: 180px;
   border-radius: 50%;
   width: 350px;
@@ -62,11 +62,49 @@ img.roundimg {
 }
 .ABOUT {
    padding-left: 60%;
-   padding-top: 350px;
+   padding-top: 280px;
 }
 .ABOUT h1 {
    font-size: 2rem;
 }
 .ABOUT h3 {
    font-weight: 500;
+}
+
+.works {
+   height: 2000px;
+   width: 1300px;
+   position: relative;
+   padding-top: 800px;
+}
+
+img.work1 {
+   width: 500px;
+   position: absolute;
+   bottom: 1200px;
+   left: 45%;
+}
+img.red {
+   border-radius: 50%;
+   z-index: -301;
+   overflow: hidden;
+   position: absolute;
+   bottom: 1000px;
+   left: 400px;
+   width: 900px;
+
+}
+
+.work1 h1 {
+   position: absolute;
+   bottom: 1300px;
+   left: 200px;
+   font-size: 150px;
+
+}
+.work1 h2 {
+   position: absolute;
+   bottom: 1150px;
+   font-size: 40px;
+   left: 150px;
 }
