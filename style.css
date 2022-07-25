@@ -61,13 +61,15 @@ img.roundimg {
   z-index: 2;
 }
 .ABOUT {
-   padding-left: 60%;
+   
    padding-top: 280px;
 }
 .ABOUT h1 {
-   font-size: 2rem;
+   padding-left: 55%;
+   font-size: 50px;
 }
 .ABOUT h3 {
+   padding-left: 56%;
    font-weight: 500;
 }
 
