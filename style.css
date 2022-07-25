@@ -61,9 +61,21 @@ img.roundimg {
   z-index: 2;
 }
 .ABOUT {
-   
+   animation-name:fadeInAnime;
+animation-duration:5s;
+animation-fill-mode:forwards;
+opacity:0;
    padding-top: 280px;
 }
+@keyframes fadeInAnime{
+   from {
+     opacity: 0;
+   }
+ 
+   to {
+     opacity: 1;
+   }
+ }
 .ABOUT h1 {
    padding-left: 55%;
    font-size: 50px;
@@ -427,7 +439,7 @@ img.gx2 {
 .footer {
    position: absolute;
    padding: 7px 4%70px;
-   top: 3500px;
+   top: 3600px;
    width: 1699px;
    background-color: rgba(0, 0, 0, 0.9);
    z-index: 10000;
